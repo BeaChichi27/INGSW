@@ -150,4 +150,3 @@ Siamo aperti ai contributi della community. Segui questi passaggi per contribuir
 
 Questo progetto è rilasciato sotto la licenza MIT. Consulta il file `LICENSE` per ulteriori dettagli.
 
-# INGSW

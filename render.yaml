@@ -13,8 +13,8 @@ services:
     env: docker
     region: frankfurt
     plan: free
-    dockerfilePath: ./Backend/Dockerfile
-    dockerContext: ./Backend
+    dockerfilePath: ./ProgettoINGSW/IngSw-master/Backend/Dockerfile
+    dockerContext: ./ProgettoINGSW/IngSw-master/Backend
     envVars:
       - key: FLASK_APP
         value: Backend_Python.main:app
@@ -32,8 +32,8 @@ services:
     env: static
     region: frankfurt
     plan: free
-    buildCommand: cd Frontend && npm install && npm run build
-    staticPublishPath: ./Frontend/dist
+    buildCommand: cd ProgettoINGSW/IngSw-master/Frontend && npm install && npm run build
+    staticPublishPath: ./ProgettoINGSW/IngSw-master/Frontend/dist
     routes:
       - type: rewrite
         source: /*
